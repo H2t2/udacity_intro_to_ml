@@ -29,7 +29,6 @@ def outlierCleaner(predictions, ages, net_worths):
             pass
         else:
             cleaned_data.append([ages[i],net_worths[i],error])
-    print(cleaned_data)
 
     return cleaned_data
 
